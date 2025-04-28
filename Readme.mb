@@ -1,0 +1,32 @@
+# My Dashboard Project
+
+This repository contains sample dashboard metrics calculated from large datasets (155,000+ rows).  
+It includes payment status breakdowns, installment tracking, district-wise summaries, and monthly disbursement trends.
+
+## Contents
+
+- `dashboard_metrics.xlsx` — Sample Excel data file
+- `dashboard_design.ipynb` — Jupyter Notebook for data processing and metric calculations
+- `requirements.txt` — List of Python libraries required
+
+## Setup
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/haseeb1491/My-dashboards.git
+    ```
+2. Install the requirements:
+    ```bash
+    pip install -r requirements.txt
+    ```
+3. Run the dashboard design notebook (`dashboard_design.ipynb`) to generate metrics.
+
+## Libraries Used
+
+- pandas
+- openpyxl
+- matplotlib (for graphs if needed later)
+
+---
+
+Created by [Haseeb](https://github.com/haseeb1491)
